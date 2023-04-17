@@ -24,4 +24,22 @@ public class NumberUtil {
         }
         return true;
     }
+
+    public static int getFactorial(int n) {
+        if (n == 0) {
+            return 1;
+        }
+        else {
+            return n * getFactorial(n-1);
+        }
+    }
+
+    public static int getSumOfNaturalNumbers(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        else {
+            return n + getSumOfNaturalNumbers(n-1);
+        }
+    }
 }
