@@ -1,12 +1,10 @@
-package run;
+package run.recursion;
 
 import utils.NumberUtil;
 
-public class RecursionTest {
+public class SumOfNaturalNumberTest {
 
     public static void main(String[] args) {
-       /* int result = NumberUtil.getFactorial(5);
-        System.out.println(result);*/
 
         System.out.println(NumberUtil.getSumOfNaturalNumbers(100));
     }
