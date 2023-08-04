@@ -3,7 +3,7 @@ package linkedlist;
 import exception.CustomException;
 import node.ListNode;
 
-public class LinkedListInsertion {
+public class LinkedListInsertion extends CommonOperation {
 
     static ListNode head;
     private static int length =0 ;
@@ -88,11 +88,4 @@ public class LinkedListInsertion {
         return head;
     }
 
-    public static void traverse(ListNode head) {
-        ListNode currentNode = head;
-        while (currentNode != null) {
-            System.out.print(currentNode.getData() + " ");
-            currentNode = currentNode.getNext();
-        }
-    }
 }
