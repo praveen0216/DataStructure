@@ -1,5 +1,9 @@
 package queue;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class FixedSizeArrayQueue {
 
     private int[] queueRep ;
