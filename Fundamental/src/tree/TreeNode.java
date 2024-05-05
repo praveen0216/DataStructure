@@ -3,10 +3,10 @@ package tree;
 public class TreeNode {
 
         int key;
-        tree.TreeNode left;
-        tree.TreeNode right;
+        public TreeNode left;
+        public TreeNode right;
 
-        TreeNode(int key) {
+       public  TreeNode(int key) {
             this.key = key;
     }
 
