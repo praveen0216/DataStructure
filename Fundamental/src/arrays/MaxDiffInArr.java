@@ -20,6 +20,9 @@ public class MaxDiffInArr {
      *
      * max value of arr[j] - arr[i] such that j>i
      *
+     * Time complexity : theta(n)
+     * Space complexity : theta(1)
+     *
      */
     private static int getMaxDiff(int[] a) {
         int max = a[1] -a[0];
